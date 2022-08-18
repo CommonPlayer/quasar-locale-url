@@ -1,11 +1,14 @@
 # quasar-locale-url
 
 ### Add support for locale URL by modifying the following files:
-`src/boot/i18n.js` create i18n using the locale specified in the URL
-`src/router/index.js` inject locale as an optional param to the routes, redirect to default locale URL if needed
+
+- `src/boot/i18n.js` create i18n using the locale specified in the URL
+- `src/router/index.js` inject locale as an optional param to the routes, redirect to default locale URL if needed
+
 #### Add locale link and locale selector components for changing locale within the website
-`src/components/LocaleLink.vue` router link wrapper to preserve locale URL during navigation
-`src/components/LocaleSelector.vue` allows changing locale within the website
+
+- `src/components/LocaleLink.vue` router link wrapper to preserve locale URL during navigation
+- `src/components/LocaleSelector.vue` allows changing locale within the website
 
 ## Install the dependencies
 ```bash
